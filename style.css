@@ -19,9 +19,13 @@ html {
   .map-tag circle {
     fill: #524e4e;
   }
-  .map-tag circle:hover {
+  /* .map-tag circle:hover {
+    fill: red;
+  } */
+  .map-tag circle.hovered {
     fill: red;
   }
+  
   .map-tag text {
     font-family: sans-serif;
     font-weight: 500;
